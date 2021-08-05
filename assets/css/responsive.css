@@ -1,0 +1,186 @@
+@media (max-width: 1199px) {
+	.container,
+	.container-1,
+	.container-2 {
+		max-width: 950px;
+	}
+
+	/*
+	===========================
+	Header Section
+	===========================
+	*/
+	.banner-title h1 {
+		font-size: 49px;
+	}
+
+	/*
+	===========================
+	Highlights Section
+	===========================
+	*/
+	.highlights-title h2 {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container,
+	.container-1,
+	.container-2 {
+		max-width: 740px;
+	}
+
+	/*
+	===========================
+	Header Section
+	===========================
+	*/
+	.banner-grid {
+		grid-column-gap: 50px;
+	}
+
+	.banner-title h1 {
+		font-size: 40px;
+	}
+
+	/*
+	===========================
+	Player Section
+	===========================
+	*/
+	.player-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/*
+	===========================
+	Video Section
+	===========================
+	*/
+	.video-text h2 {
+		font-size: 26px;
+	}
+
+	/*
+	===========================
+	Highlights Section
+	===========================
+	*/
+	.highlights-grid {
+		grid-column-gap: 50px
+	}
+
+	.highlights-title h2 {
+		font-size: 33px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.container,
+	.container-1,
+	.container-2 {
+		max-width: 540px;
+	}
+
+	.sub-title {
+		font-size: 22px;
+	}
+
+	/*
+	===========================
+	Banner Section
+	===========================
+	*/
+	.banner-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 70px 0px;
+	}
+
+	.banner-title h1 {
+		font-size: 50px;
+	}
+
+	/*
+	=============================
+	Highlights Section
+	=============================
+	*/
+	.highlights-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-column-gap: 0px
+	}
+
+	.match-img-1 {
+		display: block;
+		margin: 30px 0;
+	}
+
+	.match-img-11 {
+		display: none;
+	}
+
+	.highlights-title h2 {
+		font-size: 38px;
+	}
+
+	/*
+	===========================
+	Video Section
+	===========================
+	*/
+	.video-text h2 {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 575px) {
+	.container,
+	.container-1,
+	.container-2 {
+		width: 100%;
+		padding: 0 14px;
+	}
+
+	.sub-title h2 {
+		font-size: 27px;
+	}
+
+	/*
+	===========================
+	Banner Section
+	===========================
+	*/
+	.banner-title h1 {
+		font-size: 39px;
+	}
+
+	/*
+	===========================
+	Player Section
+	===========================
+	*/
+	.player-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/*
+	=============================
+	Highlights Section
+	=============================
+	*/
+	.highlights-title h2 {
+		font-size: 33px;
+	}
+
+	/*
+	===========================
+	Video Section
+	===========================
+	*/
+	.video-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+}
